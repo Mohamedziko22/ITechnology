@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ITechnology APP</string>
+    <string name="user_name">User Name</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="error_connection">Error Connection</string>
+    <string name="required">Required Field</string>
+    <string name="set_valied_email">Set Valied Email</string>
+    <string name="error_login">Login error. Email or Password is inncorrect.</string>
+    <string name="approval">Approval</string>
+    <string name="decline">Decline</string>
+    <string name="error_getting_data">Error getting data. check your internet and try again!</string>
+    <string name="approval_test_msg">Approval test message</string>
+    <string name="email">Email</string>
+</resources>
