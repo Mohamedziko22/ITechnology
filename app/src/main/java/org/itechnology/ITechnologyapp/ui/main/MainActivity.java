@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void login() {
         if (networkAvailable.isNetworkAvailable()) {
             if (!FUtilsValidation.isEmpty(binding.edtEmail, getString(R.string.required))
-                    && !FUtilsValidation.isEmail(binding.edtEmail, getString(R.string.set_valied_email))
+                    && FUtilsValidation.isEmail(binding.edtEmail, getString(R.string.set_valied_email))
                     && !FUtilsValidation.isEmpty(binding.edtPass, getString(R.string.required))) {
                 binding.bar.setVisibility(View.VISIBLE);
                 Call<UserResponseModel> call = API.getInstance().login(binding.edtEmail.getText().toString().trim()

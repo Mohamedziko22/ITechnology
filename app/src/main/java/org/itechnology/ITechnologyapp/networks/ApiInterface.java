@@ -20,7 +20,7 @@ public interface ApiInterface {
             , @Field("password") String password);
 
     //select the categories
-    @GET("select_categories")
+    @GET("select_categories.php")
     Observable<CategoriesResponseModel> getCategory();
 
 }
